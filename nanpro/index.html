@@ -1,0 +1,253 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <title>projet nan</title>
+</head>
+<body>
+<header>
+
+<nav class="navbar navbar-expand-lg navbar-light " >
+  <a class="navbar-brand" href="#"><img class="img-fluid" src="img/logo3.jpg" style="height: 70px; margin-left: 30px;"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarColor01" style="margin-buttom:10px;">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item ">
+        <a class="nav-link" href="#accueil"><i class="fa fa-home"></i> Acceuil<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link" href="#categ"> <i class="fa fa-cubes"></i> Categories</a>
+      </li>
+
+      <li class="nav-item ">
+        <a class="nav-link" href="#reserve"> <i class="fa fa-edit"></i> Reservation</a>
+      </li>
+
+<!-- <li class="nav-item">
+	<ul class="nav nav-pills">
+    <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Education</a>
+    <div class="dropdown-menu " id="opened" x-placement="bottom-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(0px, 38px, 0px);">
+      <a class="dropdown-item" href="cours.php">Cours</a>
+      <a class="dropdown-item" href="">Exercices</a>
+      <a class="dropdown-item" href="#">quiz</a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#">Separated link</a>
+    </div>
+   </li>
+   </ul>
+	 </li> -->
+
+      <li class="nav-item">
+        <a class="nav-link" href="#contact"> <i class="fa fa-address-book"></i> Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+</header> 
+
+<div class="content">
+<!-- contenu principal avec la classe content -->
+<div class="row" id="accueil">
+<!-- < partie gauche mon site >  --> 
+<div class="col-lg-9 col-md-9 col-sm-12">
+<section class="section_carousel">
+	
+	<div class="carousel slide" data-ride="carousel" id="moncarousel">
+		<ol class="carousel-indicators">
+			<li data-target="#moncarousel" data-slide-to="0" class="active"><i class="fa fa-star"></i></li>
+			<li data-target="#moncarousel" data-slide-to="1"></li>
+			<li data-target="#moncarousel" data-slide-to="2"></li>
+		</ol>
+		<div class="carousel-inner" role="listbox">
+
+			<div class="carousel-item active">
+				<img src="img/hotel.jpg" style="height: 400px; width: 100%">
+				<div class="carousel-caption">
+					<h3>Un hotel de haute classe</h3>
+					<p>paragraphe</p>
+				</div>
+			</div>	
+
+			<div class="carousel-item">
+				<img src="img/reception.jpg" style="height: 400px; width: 100%">
+				<div class="carousel-caption">
+					<h3>Un accueil solennel</h3>
+					<p>paragraphe 2</p>
+				</div>
+			</div>
+
+			<div class="carousel-item">
+				<img src="img/visit.jpg" style="height: 400px; width: 100%">
+				<div class="carousel-caption">
+					<h3>Divertissement</h3>
+					<p>paragraphe 3</p>
+				</div>
+			</div>
+		</div>
+
+		<div >
+			<a href="#moncarousel" class="carousel-control-prev" data-slide="prev">
+				<span class="carousel-control-prev-icon"></span>
+			</a>
+
+			<a href="#moncarousel" class="carousel-control-next" data-slide="next">
+				<span class="carousel-control-next-icon"></span>
+			</a>
+			
+		</div>
+
+	</div>
+
+</section>
+
+</div>
+<!-- < debut partie droite mon site >  --> 
+<div class="col-lg-3 col-md-3 col-sm-12">
+
+  <div class="card mb-3 border-info">
+  <h3 class="card-header card-tete"> <i class="fa fa-bullhorn"></i> Bonne nouvelle!!!</h3>
+<!--   <div class="card-body">
+    <h5 class="card-title"></h5>
+    <h6 class="card-subtitle text-muted"></h6>
+  </div> -->
+  <img style="height: 120px; width: 97%; display: block; margin: 2px auto;" src="img/comande.jpg" alt="Card image">
+  <div class="card-body">
+    <p class="card-text"> Vous pouvez desormais reserver vos chambres avec vos smart phones ou tablette via notre site.</p>
+  </div>
+  <div class="card-footer text-muted">
+    Il y a 2 jours
+  </div>
+</div>
+
+</div>
+</div>
+
+
+
+<div class="annonce">
+	<div class="an_annonce">
+		<span> Annonces</span>
+	</div>
+	<div class="an_content">
+		<marquee> Vous pouvez desormais reserver vos chambres avec vos smart phones ou tablette via notre site.</marquee>
+	</div>
+</div>
+<!-- < fin partie droite mon site />  --> 
+
+<section class="categorie" id="categ">
+<span class="categorie_titre"> Les catégories de chambre </span>
+<div class="row">
+
+ 	<div class="col-lg-4 col-md-4 col-sm-12">
+	<div class="cat1">
+		<img src="img/chambre2.jpg" class="img-fluid cat_img" style="width: 100%; height: 250px; border-radius: 2%;">
+		<h2>Chambre ventillée</h2>
+		<p>description de la chambre Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+		<button class="btn btn-info"> Plus de détails</button>
+	</div>
+	</div>
+
+	<div class="col-lg-4 col-md-4 col-sm-12">
+	<div class="cat2">
+		<img src="img/vip.jpg" class="img-fluid cat_img" style="width: 100%; height: 250px; border-radius: 2%;">
+		<h2>Chambre climatisée</h2>
+		<p>description de la chambre Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+		<button class="btn btn-info"> Plus de détails</button>
+	</div>
+	</div>
+
+	<div class="col-lg-4 col-md-4 col-sm-12">
+	<div class="cat3">
+		<img src="img/vvip.jpg" class="img-fluid cat_img" style="width: 100%; height: 250px; border-radius: 2%;">
+		<h2>Chambre VIP</h2>
+		<p>description de la chambre Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+		<button class="btn btn-info"> Plus de détails</button>
+	</div>
+	</div>
+	
+</div>
+
+</section>
+
+
+
+<section class="reservation" id="reserve">
+	<span class="categorie_titre"> Reservez vos chambres en deux étapes </span>
+	<div class="container">
+	<div class="row"> 
+
+	<div class="col-sm-12 col-md-6 col-lg-6">
+    <div class="etape_desc">
+    	<h2><span>ETAPE 1</span> Coisir une categorie de chambre</h2>
+    	<p>description de la chambre Some quick example text to build on the card title and make up the bulk of the card's content. description de la chambre Some quick example text to build on the card title and make up the bulk of the card's content</p>
+    </div>
+	</div>
+
+	<div class="col-sm-12 col-md-6 col-lg-6">
+    <div class="etape_desc">
+    	<h2><span>ETAPE 2</span> Saisir ses informations</h2>
+    	<p>description de la chambre Some quick example text to build on the card title and make up the bulk of the card's content. description de la chambre Some quick example text to build on the card title and make up the bulk of the card's content</p>
+    </div>
+	</div>
+
+
+	</div>
+	</div>
+	<hr>
+	<button class="btn btn-success btn-lg"> <a href="#reserve"> Je reserve maintenant!</a></button>
+</section>
+
+<section class="" id="contact">
+	<span class="categorie_titre"> Contactez-moi </span>
+    <div class="container">
+        
+        <p>description de la chambre Some quick example text to build on the card title and make up the bulk of the card's content. description de la chambre Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                
+        <form>
+            <label for="name">Nom</label>
+            <input type="text" id="name" placeholder="Votre nom">
+            <label for="email">Email</label>
+            <input type="text" id="email" placeholder="Votre email">
+            <input type="submit" value="OK" class="button-3">
+        </form>
+    </div>
+</section>
+
+</div>
+
+<!-- fin contenu principal -->
+<footer>
+	<div class="row">
+	<div class="col-lg-4 col-md-4 col-sm-12 foot_content">
+		<h2>A propos de moi</h2>
+		<img src="img/avatar.jpg" class="img img-fluid" style="width: auto; height: 150px;"> 
+		
+		<h5> <i class="fa fa-user-circle-o"></i> ELIAS KOUADIO</h5>
+		<h6> <i class="fa fa-fax"></i> Contact: 03121490/85214099</h6>
+		<h6> <i class="fa fa-envelope"></i> Email: tehua.kouadio@uvci.edu.ci</h6>
+	</div>
+	<div class="col-lg-4 col-md-4 col-sm-12 foot_content">
+		<h2>Elias Hotel</h2>
+		<img src="img/logo22.jpg" class="img img-fluid">
+	</div>
+	<div class="col-lg-4 col-md-4 col-sm-12 foot_content">
+		<h2>Les medias sociaux</h2>
+		<img src="img/medias.jpg" style="height: 180px; width: 90%">
+	</div>
+	</div>
+	<div style="color: white; text-align: center; background-color: grey; width: 100%; height: 30px; border-radius: 5px;"><p>Tout droit reservé @2019</p></div>
+</footer>
+ 	<script src="js/jquery-3.3.1.js"></script> 
+ 	<script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
